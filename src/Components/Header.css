@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+.name{
+   margin-right: 20px;
+   /* font-family: "Cinzel", serif; */
+   font-size: 30px;
+}
+
+small{
+    color: rgb(120 174 118);
+    font-weight: bolder;
+    font-size: inherit;
+
+}
+
+ .header{
+   width: 50%;
+
+   position: absolute;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-size: 17px;
+    padding: 15px 15px 15px 0px;
+    /* background-color: #fff; */
+    color: white;
+    font-family: "DM Sans", sans-serif;
+ }
+
+ .header p{
+    cursor: pointer;
+    /* color: #bb94c6; */
+   color:#ffffff;;
+ }
+
+.rightElements{
+    display: flex;
+    gap: 20px;
+}
+
+.rightElements li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.rightElements li:hover{
+   color: #88beed;
+}
+
+body{
+   background-color: black;
+}

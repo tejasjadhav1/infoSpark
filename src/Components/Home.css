@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.left{
+    width: 50%;
+    height: 35vh;
+    color: white;
+    margin-top: 10%;
+
+    font-family: "DM Sans", sans-serif;
+    cursor:default;
+}
+
+.right{
+    width: 50%;
+    height: 100vh;
+    /* background-color: #56789c; */
+    background-color: beige;
+}
+
+.tagline p{
+    font-size: 61px;
+
+    
+}
+
+.tagline p:hover{
+    /* color: #bb94c6; */
+    color: #88beed;
+    
+}
+
+.knowmore{
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 20%;
+    padding: 12px;
+    width: 10vw;
+    
+    cursor: pointer;
+    border: none;
+}
+
+.knowmore:hover{
+    width: 10.4vw;
+    transition: 0.2s;
+    background-color: aqua;
+}
+
+.arrowRght{
+    margin-left: 5px;
+}
+
+.footprints{
+    color: white;
+}
+
+.footprints p{
+    cursor: pointer;
+}
