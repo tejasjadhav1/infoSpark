@@ -63,3 +63,35 @@
 .footprints p{
     cursor: pointer;
 }
+
+.chatimg{
+    position: relative;
+}
+
+.chatHover{
+    position: absolute;
+    margin-top: -100px;
+    background-color: #fff;
+    color: black;
+    margin-left: -40px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    white-space: nowrap;
+    display: none;
+ 
+}
+
+.chatHover::before{
+    content: "";
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    border: 10px solid;
+    transform: translateX(-50%);
+    border-color: #fff #0000 #0000 #0000;
+}
+
+.visible{
+    display: block;
+    
+}
