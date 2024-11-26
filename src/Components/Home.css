@@ -25,15 +25,8 @@
 
 .tagline p{
     font-size: 61px;
-
-    
 }
 
-.tagline p:hover{
-    /* color: #bb94c6; */
-    color: #88beed;
-    
-}
 
 .knowmore{
     border-radius: 20px;
@@ -78,7 +71,6 @@
     border-radius: 7px;
     white-space: nowrap;
     display: none;
- 
 }
 
 .chatHover::before{
@@ -93,4 +85,9 @@
 
 .visible{
     display: block;
+}
+
+.top-content{
+    position: absolute;
+    z-index: 1000;
 }

@@ -53,6 +53,9 @@ function Home() {
           alt="Network" 
           style={{ width: '100%', height: '100%' }} // Optional: Adjust size as needed
         />
+        <div className="top-content">
+          hey
+        </div>
       </div>
     </div>
   );

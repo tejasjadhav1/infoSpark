@@ -10,3 +10,7 @@ body{
     background-color: rgb(15, 15, 15);
 }
 
+.navlinks{
+    text-decoration: none;
+    color: white;
+}
